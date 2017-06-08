@@ -7,11 +7,13 @@ Version: 1.0
 In this exercise, you will familiarize yourself with Kali User Interface and review some of the basic functionality of a default configuration of a Kali.
 ## COMPLETION MESSAGE
 You have just completed a brief tour of Kali. In the next exercise, you will llearn how to change the Kali's MAC address.
-### Log on to Kali
-On the Kali log on screen, in Username type **root**, and click **Next**. In password type **Passw0rd!**, and click **Sign In**.
+
+### Log in to Kali
+On the Kali log in screen, in Username, type **root,** and click **Next**. In password, type **Passw0rd!**, and click **Sign In**.
 
 #### :warning: ALERT
-As with any Linux-based system, all names are case sensitive. Please ensure you enter **root** as lower case letters.
+As with any Linux-based system, all names are case sensitive. Please ensure, you enter **root** as lowercase letters.
+
 
 #### :bulb: KNOWLEDGE
 TIP: You can paste the username and password from the Commands menu in the lab UI. To do so, click **Commands**, and the click**Paste**.
@@ -74,14 +76,18 @@ NOTE: These, and other applications, are installed by default when you install K
 On the top of the favorites bar, double-click **Iceweasel**\)top application on favorites bar).  A re-branded version of Mozilla Extended Support Release \)ESR) appears.
 
 #### :bulb: KNOWLEDGE
-Iceweasel is a re-branded version of Mozilla Firefox ESR. For more information on the IceWeasel branding, please see [https://wiki.debian.org/Iceweasel](https://wiki.debian.org/Iceweasel). In the most recent version of Kali, the IceWeasel branding is replaced by the Mozilla branding.
+
+IceWweasel is a re-branded version of Mozilla Firefox ESR. For more information on the Iceweasel branding, please see [https://wiki.debian.org/Iceweasel](https://wiki.debian.org/Iceweasel). In the most recent version of Kali, the Iceweasel branding is replaced by the Mozilla branding.
 
 
 
 
 
-### Change to sorkspace 2
-On the toolbar, click the workspace icon, and then click **Workspace 2**. Note that Iceweasel disappears from view. However, note the grey dot to the left of the Iceweasel icon to indicate that it application is open in another workspace. 
+
+
+### Change to Workspace 2
+On the toolbar, click the workspace icon, and then click **Workspace 2**. Note that Iceweasel disappears from view. However, note the grey dot to the left of the Iceweasel icon to indicate that the application is open in another workspace. 
+
 
 
 
@@ -168,10 +174,10 @@ On the favorites bar, click **Show Applications**. In the Search box, type **Zen
 
 
 ### View available scan profiles
-In Zenmap, click the down arrow to the right of the Profile field to show the available port scan profiles. Select a scan profile, and note that the nmap command for the scan profile is displayed in the command field.
+In Zenmap, click the down arrow to the right of the Profile field to show the available port scan profiles. Select a scan profile, and note that the Nmap command for the scan profile is displayed in the command field.
 
 #### :bulb: KNOWLEDGE
-**NOTE:** The various scan profiles allow you to select from a range of scan types from a simple ping scan to a more comprehensive scans.
+**NOTE:** The various scan profiles allow you to select from a range of scan types from a simple ping scan to  more comprehensive scans.
 
 #### :camera: SCREENSHOT
 >LODSProperties
@@ -213,7 +219,9 @@ In Zenmap, click **Scan**. After a few moments, the scan output is displayed in 
 
 
 
-### Perform a quick scan plus
+
+### Perform a Quick scan plus
+
 In Profile, select **Quick scan plus**. In target, type **192.168.1.3**. Click **Scan**. After 30 - 45 seconds, the scan results appear, as shown in the attached screen shot.
 
 #### :camera: SCREENSHOT
@@ -261,7 +269,9 @@ On the favorites bar, click **Terminal**.
 
 
 ### Perform a ping scan of subnet
+
 At the terminal prompt, type **Nmap -sn 192.168.1.0/24**, and press **ENTER**.
+
 
 #### :camera: SCREENSHOT
 >LODSProperties
@@ -355,7 +365,9 @@ At the terminal prompt, type **ifconfig eth0 up**, and press **ENTER**.
 In Zenmap, click the Profile field to show the available port scan profiles.
 
 #### :bulb: KNOWLEDGE
-**NOTE:** The various scan profiles allow you to select from a range of scan types from a simple ping scan to a more comprehensive scan.
+
+**NOTE:** The various scan profiles allow you to select from a range of scan types from a simple ping scan to more comprehensive scans.
+
 
 #### :camera: SCREENSHOT
 >LODSProperties
