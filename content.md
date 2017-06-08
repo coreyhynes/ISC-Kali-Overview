@@ -8,10 +8,10 @@ In this exercise, you will familiarize yourself with Kali User Interface and rev
 ## COMPLETION MESSAGE
 You have just completed a brief tour of Kali. In the next exercise, you will llearn how to change the Kali's MAC address.
 ### Log on to Kali
-On the Kali log on screen, in Username, type **root,** and click **Next**. In password, type **Passw0rd!**, and click **Sign In**.
+On the Kali log on screen, in Username type **root**, and click **Next**. In password type **Passw0rd!**, and click **Sign In**.
 
 #### :warning: ALERT
-As with any Linux-based system, all names are case sensitive. Please ensure, you enter **root** as lower case letters.
+As with any Linux-based system, all names are case sensitive. Please ensure you enter **root** as lower case letters.
 
 #### :bulb: KNOWLEDGE
 TIP: You can paste the username and password from the Commands menu in the lab UI. To do so, click **Commands**, and the click**Paste**.
@@ -33,7 +33,7 @@ On the top right of the desktop, click the drop-down icon.  The drop-down box c
 
 
 ### Examine recording settings
-To left of the drop-down group, click the camera icon. Here you can configure and start recordings of activities you perform on the desktop.
+To the left of the drop-down group, click the camera icon. Here you can configure and start recordings of activities you perform on the desktop.
 
 #### :camera: SCREENSHOT
 >LODSProperties
@@ -74,13 +74,13 @@ NOTE: These, and other applications, are installed by default when you install K
 On the top of the favorites bar, double-click **Iceweasel**\)top application on favorites bar).  A re-branded version of Mozilla Extended Support Release \)ESR) appears.
 
 #### :bulb: KNOWLEDGE
-IceWweasel is a re-branded version of Mozilla Firefox ESR. For more information on the IceWeasel branding, please see [https://wiki.debian.org/Iceweasel](https://wiki.debian.org/Iceweasel). In the most recent version of Kali, the IceWeasel branding is replaced by the Mozilla branding.
+Iceweasel is a re-branded version of Mozilla Firefox ESR. For more information on the IceWeasel branding, please see [https://wiki.debian.org/Iceweasel](https://wiki.debian.org/Iceweasel). In the most recent version of Kali, the IceWeasel branding is replaced by the Mozilla branding.
 
 
 
 
 
-### Change to Workspace 2
+### Change to sorkspace 2
 On the toolbar, click the workspace icon, and then click **Workspace 2**. Note that Iceweasel disappears from view. However, note the grey dot to the left of the Iceweasel icon to indicate that it application is open in another workspace. 
 
 
@@ -112,23 +112,19 @@ On the top right toolbar, click the workspace icon, and change to **Workspace 1*
 
 
 
-### Close IceWeasel
-Close the IceWeasel browser.
+### Close Iceweasel
+Close the Iceweasel browser.
 
 
 
 
 
 ### Show all applications
-On the favorites bar, click **Show applications** \)bottom icon). On the applications page, ensure that All is selected, as shown in the attached screenshot.
+On the favorites bar, click **Show Applications** \)bottom icon). On the applications page, ensure that All is selected, as shown in the attached screenshot.
 
 #### :camera: SCREENSHOT
 >LODSProperties
 >* Uri = screens/765159.png
-
-
-
-
 
 ### Search for application
 In the search box, type **Wireshark**.
@@ -137,16 +133,8 @@ In the search box, type **Wireshark**.
 >LODSProperties
 >* Uri = screens/765169.png
 
-
-
-
-
 ### Cancel search
 On the right of the search dialog box, click the **X** to close the search dialog box.
-
-
-
-
 
 ### Review Applications
 On the left side of the toolbar, click **Applications**. The applications installed by default on Kali are displayed, organized by their functional category. Spend a few moments examining the application in their respective categories.
@@ -155,23 +143,14 @@ On the left side of the toolbar, click **Applications**. The applications instal
 >LODSProperties
 >* Uri = screens/765147.png
 
-
-
-
-
 ### Review Places
 On the Toolbar, click **Places**. This provides you with quick access to frequently used places.
-
-
-
-
-
 
 # Use Zenmap and Nmap to scan ports
 ## INTRODUCTION MESSAGE
 Port scanning is used discover open ports on remote systems. Port scanning is useful for network discovery, security auditing, host monitoring and network administratiion functions. Although port scanning itself is benign and has many legitimate, unexpected or unauthorized port scans are  often viewed as  attacks because they are often used to discover vulnerabilites in preparation for an actual attack.   
   
-By default, Kali includes a number of port scanners. The most popular and widely used port scanner and network discovery tool included in Kali is Namp.  
+By default, Kali includes a number of port scanners. The most popular and widely used port scanner and network discovery tool included in Kali is Nmap.  
   
 **IMPORTANT:** Using the more aggressive capabilities of Nmap without proper authorization and prior agreement could be evidence of a criminal activity. Please ensure you obtain proper authorization before using any tool in Kali that could potentially lead to unauthorized access of a computer system, which is a criminal offense.
 ## COMPLETION MESSAGE
@@ -224,7 +203,7 @@ In the Profile field, select **Ping scan**.
 
 
 ### Scan subnet
-In Zenmap, click **Scan**. After a few moments, the scan output is displayed in the NMap Output tab.
+In Zenmap, click **Scan**. After a few moments, the scan output is displayed in the Nmap Output tab.
 
 #### :camera: SCREENSHOT
 >LODSProperties
@@ -235,7 +214,7 @@ In Zenmap, click **Scan**. After a few moments, the scan output is displayed in 
 
 
 ### Perform a quick scan plus
-In Profile, select **quick scan plus**. In target, type **192.168.1.3**. Click **Scan**. After 30 - 45 seconds, the scan results appear, as shown in the attached screen shot.
+In Profile, select **Quick scan plus**. In target, type **192.168.1.3**. Click **Scan**. After 30 - 45 seconds, the scan results appear, as shown in the attached screen shot.
 
 #### :camera: SCREENSHOT
 >LODSProperties
@@ -246,7 +225,7 @@ In Profile, select **quick scan plus**. In target, type **192.168.1.3**. Click *
 
 
 ### View host details
-In left pane, click **192.168.1.3**, and then click the **Host Details** tab.
+In the left pane, click **192.168.1.3**, and then click the **Host Details** tab.
 
 #### :camera: SCREENSHOT
 >LODSProperties
@@ -281,8 +260,8 @@ On the favorites bar, click **Terminal**.
 
 
 
-### Peform a ping scan of subnet
-At the terminal prompt, type **nmap -sn 192.168.1.0/24**, and press **ENTER**.
+### Perform a ping scan of subnet
+At the terminal prompt, type **Nmap -sn 192.168.1.0/24**, and press **ENTER**.
 
 #### :camera: SCREENSHOT
 >LODSProperties
@@ -293,7 +272,7 @@ At the terminal prompt, type **nmap -sn 192.168.1.0/24**, and press **ENTER**.
 
 
 ### Perform an intense scan of host
-At the terminal prompt, type **nmap -T4 -A -v 192.168.1.3**, and press **ENTER**. The scan will take a few minutes to complete.
+At the terminal prompt, type **Nmap -T4 -A -v 192.168.1.3**, and press **ENTER**. The scan will take a few minutes to complete.
 
 #### :camera: SCREENSHOT
 >LODSProperties
@@ -376,7 +355,7 @@ At the terminal prompt, type **ifconfig eth0 up**, and press **ENTER**.
 In Zenmap, click the Profile field to show the available port scan profiles.
 
 #### :bulb: KNOWLEDGE
-**NOTE:** The various scan profiles allow you to select from a range of scan types from a simple ping scan to a more comprehensive scans.
+**NOTE:** The various scan profiles allow you to select from a range of scan types from a simple ping scan to a more comprehensive scan.
 
 #### :camera: SCREENSHOT
 >LODSProperties
